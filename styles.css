@@ -1,0 +1,34 @@
+.tarjeta{
+    padding-left: 200px;
+}
+
+.texto{
+    padding-right: 300px;
+}
+
+.logogithub{
+    width: 30px;
+}
+
+.logoX{
+    width: 40px;
+}
+
+.tituloProyects{
+    text-align: center;
+}
+
+.imagenProy1{
+    padding: 0px 0px 0px 0px;
+    width: 1000px;
+    height: 600px;
+}
+
+.contenedorImg1{
+    width: 1000px;
+    height: 500px;
+}
+
+.tituloSubscribe{
+    text-align: center;
+}
