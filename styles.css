@@ -1,13 +1,29 @@
-.tarjeta{
+.contenedorTarjeta{
     padding-left: 200px;
 }
 
-.texto{
-    padding-right: 300px;
+
+
+.tarjeta{
+    background-color: rgb(14, 13, 13);
 }
 
+.textoNombreTarjeta{
+    color: white;
+}
+
+.textoNombreCarrera{
+    color: white;
+}
+
+
+
+/* .texto{
+    padding-right: 300px;
+} */
+
 .logogithub{
-    width: 30px;
+    width: 50px;
 }
 
 .logoX{
@@ -24,11 +40,11 @@
     height: 600px;
 }
 
-.contenedorImg1{
-    width: 1000px;
-    height: 500px;
-}
+
 
 .tituloSubscribe{
     text-align: center;
 }
+
+
+
