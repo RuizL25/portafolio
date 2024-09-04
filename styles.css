@@ -1,56 +1,44 @@
-.contenedorTarjeta {
-    padding-left: 200px;
-}
-
-/* .home-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
-
 .perfil{
     max-height: 10rem;
 
 }
 
-
-
-.tarjeta{
-    background-color: rgb(14, 13, 13);
-}
-
-.textoNombreTarjeta{
-    color: white;
-}
-
-.textoNombreCarrera{
-    color: white;
+.logos{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-height: 4rem;
+    
 }
 
 
-.logogithub{
-    width: 50px;
+.filas{
+    margin-top: 10%;
+    color: black;
 }
 
-.logoX{
-    width: 40px;
+.columna1{
+    background-color: white;
+    border-color: black;
+    border-width: thin;
+    border-style: inset;
+    border-radius: 4%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+
 }
 
-.tituloProyects{
-    text-align: center;
+.columna2{
+    background-color: white;
+    border-color: black;
+    border-width: thin;
+    border-style: inset;
+    border-radius: 4%; 
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
 }
 
-.imagenProy1{
-    padding: 0px 0px 0px 0px;
-    width: 1000px;
-    height: 600px;
-}
-
-
-
-.tituloSubscribe{
-    text-align: center;
+.proyectos{
+    
 }
 
 
