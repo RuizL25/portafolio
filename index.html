@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Portfolio</title>
 </head>
@@ -12,7 +12,7 @@
 
     <nav class="navbar bg-white navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
+          <img class="logo" src="src/logo.png" alt="aaa">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -22,7 +22,7 @@
                 <a class="nav-link" href="#">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Github</a>
+                <a class="nav-link" href="https://github.com/RuizL25">Github</a>
               </li>
             </ul>
           </div>
@@ -32,23 +32,23 @@
     <div class="container-fluid p-5 text-black text-center">
         <h1>Fullstack Developer & Cybersecurity Analyst in progress</h1>
         <p>.....</p> 
-        <img class="img-fluid rounded-circle perfil" src="https://i.pinimg.com/originals/59/ea/2a/59ea2ad381cba288ad849cb6d7aa43e3.jpg" alt="New York">
+        <img class="img-fluid rounded-circle perfil" src="/src/personal.jpg" alt="New York">
     </div>
         
 
-    <div class="container-fluid p-1 bg-primary text-white text-center">
+    <div class="container-fluid p-1 text-white text-center informacion">
         <div class="container mt-5 presentacion">
-          <h2>Hia</h2>
+          <h2>Hi</h2>
           <div class="row filas">
             <div class="col-sm columna1">
-              <img src="./src/X-Logo.png" alt="imagen" class="logos">
+              <img src="src/full_stack_logo.png" alt="imagen" class="logos">
               <h4>Full stack developer</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
             </div>
             <div class="col-sm columna2">
               <img src="" alt="">
-              <img src="./src/X-Logo.png" alt="imagen" class="logos">
+              <img src="src/cybersecurity_logo.jpeg" alt="imagen" class="logos">
               <h4>Cybersecurity analist</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -60,24 +60,33 @@
 
     <div class="container-fluid p-5 text-black text-center">
       <div class="cotainer mt-5 proyectos">
-        <h1>My recents projects</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam at accusantium, voluptas maiores facere nobis beatae, eum aspernatur sed quidem, error omnis voluptate obcaecati quo! Voluptates, temporibus. Deleniti, reprehenderit accusantium?</p>
+        <h1 class="titulo_proyectos">My recents projects</h1>
+        <div class="container-fluid p-10 text-black text-center proyecto1"></div>
+          <h2>Poseandino</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolor tenetur tempore iusto neque fugiat consectetur nobis. Amet quod, qui aspernatur, quisquam molestiae similique neque veritatis harum itaque voluptate optio?</p>
+          <img class="imagen_proyecto" src="/src/Poseandino.png" alt="">
+        </div>
+
+        <div class="container-fluid p-10 text-black text-center proyecto1"></div>
+          <h2>Poseandino</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolor tenetur tempore iusto neque fugiat consectetur nobis. Amet quod, qui aspernatur, quisquam molestiae similique neque veritatis harum itaque voluptate optio?</p>
+          <img class="imagen_proyecto" src="/src/Poseandino.png" alt="">
+        </div>
       </div>
     </div>
 
     <div class="container-fluid p-5 text-black text-center">
       <div class="cotainer mt-5 proyectos">
         <h1>Want to know more?</h1>
-        <p>Contact me.</p>
+        <p>Contact me</p>
         <button class="primary">A</button>
       </div>
     </div>
         
-
     <footer>
-        <div class="container-fluid p-5 bg-primary text-white text-center">
-            
-            <p>Made by me</p>
+        <div class="container-fluid p-5 text-white text-center footer">
+            <p>Made by me with Bootstrap</p>
+            <p>RuizL25</p>
         </div>
     </footer>
 

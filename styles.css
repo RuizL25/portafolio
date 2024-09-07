@@ -37,9 +37,26 @@
     border-bottom-left-radius: 0%;
 }
 
-.proyectos{
-    
+.logo{
+    max-height: 3rem;
 }
 
+.informacion{
+    background-color: rgb(27, 45, 62);
+}
 
+.footer{
+    background-color: rgb(27, 45, 62);
+}
 
+.proyecto1{
+    max-width: 80%;
+}
+
+.imagen_proyecto{
+    max-width: 80%;
+}
+
+.titulo_proyectos{
+    margin-bottom: 3%;
+}
