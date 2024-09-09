@@ -12,8 +12,13 @@
 
 
 .filas{
-    margin-top: 10%;
     color: black;
+    padding-bottom: 8%;
+    padding-top: 5%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .columna1{
@@ -22,8 +27,6 @@
     border-width: thin;
     border-style: inset;
     border-radius: 4%;
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
 
 }
 
@@ -54,9 +57,26 @@
 }
 
 .imagen_proyecto{
-    max-width: 80%;
+    max-width: 70%;
+    padding-bottom: 0;
 }
 
 .titulo_proyectos{
     margin-bottom: 3%;
 }
+
+.link_proyecto{
+    padding: 0;
+    height: fit-content;
+}
+
+.proyectos{
+    margin-top: 5%;
+}
+
+.tipo{
+    font-weight: bold;
+    color: black;
+}
+
+
